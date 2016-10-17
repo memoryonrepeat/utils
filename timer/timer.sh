@@ -1,4 +1,5 @@
 #!/bin/bash
+# TODO: Display/edit/delete reminders
 # Command line reminder that runs in background and notify using OS X notification center
 # Add the below function to .bashrc or .zshrc before using
 # Usage: remind <minutes> [hours] [message]
