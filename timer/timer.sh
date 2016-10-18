@@ -1,8 +1,14 @@
 #!/bin/bash
-# TODO: Display/edit/delete reminders
+#
+# TODO: 
+# - Display/edit/delete reminders
+# - Make notification dismissable only by clicking, without setting manually like this http://apple.stackexchange.com/a/214598
+# 
+# DESC:
 # Command line reminder that runs in background and notify using OS X notification center
-# Add the below function to .bashrc or .zshrc before using
+# NOTE: Add the below function to .bashrc or .zshrc before using
 # Usage: remind <minutes> [hours] [message]
+
 minutes=${1:-1}; # default = 1
 hours=${2:-0}; # default = 0
 text=${3:-"Task"}; # default = "Task"
